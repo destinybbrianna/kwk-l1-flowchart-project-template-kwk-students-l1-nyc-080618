@@ -1,3 +1,9 @@
 require './config/environment'
 
-run ApplicationController
+run App
+
+class ApplicationController < Sinatra::Base
+ 
+  
+ end
+
